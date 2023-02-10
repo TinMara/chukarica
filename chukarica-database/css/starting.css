@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+hr {
+    width:60%;
+    margin-left:20% !important;
+    margin-right: 20% !important;
+}
+
+.heading-top-picks {
+    display:grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading-top-picks h1 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+}
+
+.heading-top-picks h3 {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.items-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 80px 0;
+}
+
+
+
+.items img {
+    width:300px;
+    height: 300px;
+    border-radius: 40px;
+    padding:20px;
+    transition: all ease-in 0.5s;
+}
+
+.items img:hover {
+    cursor: pointer;
+    background-color: rgb(185, 185, 185);
+    transform: scaleX(10px);
+}
+
+.text-part {
+    margin-top: 100px;
+    height: 30vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-part h1 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.text-part p {
+    font-size: 20px;
+}
+
+.about-us {
+    display: flex;
+    margin-top:100px;
+}
+
+.champions {
+    width:650px;
+    height: 400px;
+}
+
+.champions-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text-part{
+    margin-bottom: 100px;
+}
+
+.trophies {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    background-color: rgb(228, 228, 228);
+    padding:50px;
+}
+
+.trophies section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.trophies h3 {
+    margin-top: 20px;
+    color: grey;
+}
+.trophies h1 {
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    margin: 30px;
+}
+

@@ -1,0 +1,50 @@
+<articles>
+  <article>
+    <id>1</id>
+    <name>First kit</name>
+    <url>./images/items/first-kit.png</url>
+    <price>90</price>
+  </article>
+
+  <article>
+    <id>2</id>
+    <name>Second kit</name>
+    <url>./images/items/second-kit.png</url>
+    <price>90</price>
+  </article>
+
+  <article>
+    <id>3</id>
+    <name>Third kit</name>
+    <url>./images/items/third-kit.png</url>
+    <price>90</price>
+  </article>
+
+  <article>
+    <id>4</id>
+    <name>Goalkeeper kit</name>
+    <url>./images/items/goal-kit.png</url>
+    <price>92</price>
+  </article>
+
+  <article>
+    <id>5</id>
+    <name>Psg hoodie</name>
+    <url>./images/items/hoodie.png</url>
+    <price>60</price>
+  </article>
+
+  <article>
+    <id>6</id>
+    <name>Psg jacket</name>
+    <url>./images/items/jacket.png</url>
+    <price>260</price>
+  </article>
+
+  <article>
+    <id>7</id>
+    <name>Psg T-shirt</name>
+    <url>./images/items/t-shirt.png</url>
+    <price>60</price>
+  </article>
+</articles>

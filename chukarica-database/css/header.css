@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+::selection {
+    background-color:black;
+    color:red;
+}
+
+header {
+    background-image: url('../images/mainslika.jpg');
+    height: 100vh;
+    box-shadow: rgb(0, 0, 0,0.7) 0 0 0 1000px inset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-section {
+    display:flex;
+    justify-content: center;
+    float: center;
+    margin-top: 50px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    transition: all linear 0.5s;
+}
+
+.menu a {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.menu ul li a:hover {
+    font-weight: 600;
+    transition: all linear 0.5s;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 50px;
+}
+
+.btns button {
+    border: transparent;
+    border-radius:90px;
+    padding: 10px;
+    background-color: white;    
+    transition: 0.3s all ease-in ;
+}
+
+.btns button:hover {
+    background-color: rgb(146, 146, 146);
+    transition: 0.3s all ease-in ;
+}
+
+.center-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 80px;
+    font-weight:bold;
+    color: white;
+}
+
+.heading h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.heading button {
+    margin-top: 20px;
+    width:300px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+a:link,a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}

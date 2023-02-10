@@ -1,0 +1,20 @@
+.form-contact {
+    display:grid;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-borders {
+    background-color: rgb(2, 89, 252);
+    margin:50px;
+    padding: 50px 100px 50px 100px;
+    border-radius: 20px;
+}
+
+#submit-contact {
+    margin-top: 10px;
+}
+
+
